@@ -1,5 +1,4 @@
 body {
-  font-family: ;
   background-color: #ffffff;
   color: #212121;
   font-family: 'Raleway', sans-serif;
@@ -28,9 +27,13 @@ body {
 /*Site-nav*/
 ul {
   list-style: none;
+  text-decoration: none;
 }
-
+.site-nav {
+  display: flex;
+}
 .site-nav .link {
+  display: flex;
   color: #212121;
 }
 
@@ -42,6 +45,9 @@ ul {
 .contacts .link:hover,
 .contacts .link:focus {
   color: #2196f3;
+}
+.link {
+  text-decoration: none;
 }
 
 .hero {
@@ -57,4 +63,8 @@ ul {
 .hero-btn {
   color: #2196f3;
   position: absolute;
+}
+
+.section {
+  color: #212121;
 }
