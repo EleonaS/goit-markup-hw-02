@@ -29,6 +29,7 @@ body {
 ul {
   list-style: none;
 }
+
 .site-nav .link {
   color: #212121;
 }
@@ -44,8 +45,16 @@ ul {
 }
 
 .hero {
+  width: 1600px;
+  height: 600px;
+  background-color: rgb(235, 190, 190); /*поменять на фото в ДЗ3*/
 }
 .hero-title {
+  color: #ffffff;
+
+  text-align: center;
 }
 .hero-btn {
+  color: #2196f3;
+  position: absolute;
 }
