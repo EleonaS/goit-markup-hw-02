@@ -1,2 +1,51 @@
 body {
+  font-family: ;
+  background-color: #ffffff;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* #FFFFFF */
+/*  #212121 */
+/* вторичный #757575*/
+
+/*акцент #2196F3*/
+
+/*футер color: rgba(255, 255, 255, 0.6)* /
+
+/*background: #FFFFFF;*/
+/*background: #F5F4FA;*/
+/*футер background: #2F303A;*/
+
+.page-header {
+}
+
+.logo {
+  color: #2196f3;
+  color: #000;
+}
+/*Site-nav*/
+ul {
+  list-style: none;
+}
+.site-nav .link {
+  color: #212121;
+}
+
+.contacts .link {
+  color: #757575;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
 }
