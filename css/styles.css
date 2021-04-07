@@ -1,9 +1,12 @@
 :root {
   --primary-text-color: #212121;
   --hero-text-color: #ffffff;
-  --accent-color: #f3aa21;
+  --accent-color: #2196f3;
   --logo-text-color: #000000;
   --secondary-text-color: #757575;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 body {
   background-color: #ffffff;
@@ -18,7 +21,7 @@ body {
 
 /*акцент */
 
-/*футер color: rgba(255, 255, 255, 0.6)* /
+/*футер color: * /
 
 /*background: #FFFFFF;*/
 /*background: #F5F4FA;*/
@@ -44,17 +47,19 @@ ul {
   color: var(--primary-text-color);
 }
 
-.contacts .link {
-  color: var(--secondary-text-color);
-}
 .site-nav .link:hover,
-.site-nav .link:focus,
-.contacts .link:hover,
-.contacts .link:focus {
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 .link {
   text-decoration: none;
+}
+.contacts .link {
+  color: var(--secondary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
 }
 
 .hero {
@@ -82,4 +87,10 @@ ul {
 
 .title-item {
   color: var(--secondary-text-color);
+}
+
+/*Button*/
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
 }
