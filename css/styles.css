@@ -63,7 +63,9 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.footer-list .link:hover,
+.footer-list .link:focus {
   color: var(--accent-color);
 }
 
@@ -102,6 +104,7 @@ ul {
 .button {
   color: var(--primary-text-color);
   background-color: var(--secondary-bg-color);
+  cursor: pointer;
 }
 
 .button:hover,
