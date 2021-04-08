@@ -35,14 +35,15 @@ body {
 }
 
 /*разобраться*/
-.logo {
+.logo,
+.logo-footer {
   font-family: var(--logo-font-family);
   text-decoration: none;
 }
-.logo-part1 {
+.logo-part-one {
   color: var(--accent-color);
 }
-.logo-part2 {
+.logo-part-two {
   color: var(--logo-text-color);
 }
 
@@ -130,4 +131,8 @@ ul {
 }
 .address {
   font-style: inherit;
+}
+
+.logo-part-t {
+  color: var(--hero-text-color);
 }
