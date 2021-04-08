@@ -4,15 +4,19 @@
   --accent-color: #2196f3;
   --logo-text-color: #000000;
   --secondary-text-color: #757575;
+
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+
+  --primery-font-family: 'Roboto', sans-serif;
+  --logo-font-family: 'Raleway', sans-serif;
 }
+
 body {
-  background-color: #ffffff;
-  color: #212121;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--primery-font-family);
 }
 
 /* #FFFFFF */
@@ -31,6 +35,10 @@ body {
 }
 
 /*разобраться*/
+.logo {
+  font-family: var(--logo-font-family);
+  text-decoration: none;
+}
 .logo-part1 {
   color: var(--accent-color);
 }
@@ -43,27 +51,23 @@ ul {
   list-style: none;
   text-decoration: none;
 }
-.site-nav {
-  display: flex;
+
+.link {
+  text-decoration: none;
 }
 .site-nav .link {
-  display: flex;
   color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.link {
-  text-decoration: none;
-}
-.contacts .link {
-  color: var(--secondary-text-color);
-}
+.site-nav .link:focus,
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--secondary-text-color);
 }
 
 .hero {
@@ -76,10 +80,6 @@ ul {
 
   text-align: center;
 }
-.hero-btn {
-  color: var(--accent-color);
-  position: absolute;
-}
 
 .section-title {
   color: var(--primary-text-color);
@@ -89,7 +89,11 @@ ul {
   color: var(--primary-text-color);
 }
 
-.title-item {
+.team-item-name {
+  color: var(--primary-text-color);
+}
+
+.team-item-position {
   color: var(--secondary-text-color);
 }
 
@@ -99,6 +103,11 @@ ul {
   background-color: var(--secondary-bg-color);
 }
 
+.button:hover,
+.button:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
 
 .visually-hidden {
   position: absolute;
@@ -107,11 +116,18 @@ ul {
   margin: -1px;
   border: 0;
   padding: 0;
-  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.footer .link {
+  color: var(--hero-text-color);
+}
 .address {
   font-style: inherit;
 }
