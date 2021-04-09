@@ -39,6 +39,11 @@ body {
 .logo-footer {
   font-family: var(--logo-font-family);
   text-decoration: none;
+  position: absolute;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: bold;
 }
 .logo-part-one {
   color: var(--accent-color);
@@ -56,8 +61,13 @@ ul {
 .link {
   text-decoration: none;
 }
+
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -71,6 +81,12 @@ ul {
 
 .contacts .link {
   color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -81,14 +97,73 @@ ul {
 .hero-title {
   color: var(--hero-text-color);
 
+  /*font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;*/
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /*
 .section-title,
 .feature-list.title .team-item-name {
   color: var(--primary-text-color);
 } */
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.title-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
 
+.team-item-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
 .title-item,
 .team-item-position,
 .work-title-item {
@@ -123,14 +198,63 @@ ul {
 
 .footer {
   background-color: var(--footer-bg-color);
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
 }
 .footer .link {
   color: var(--hero-text-color);
 }
+
 .address {
+}
+.footer-list {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+
   font-style: inherit;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
 
 .logo-part-t {
   color: var(--hero-text-color);
+}
+
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+
+.work-title-item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
 }
