@@ -90,7 +90,8 @@ ul {
 } */
 
 .title-item,
-.team-item-position {
+.team-item-position,
+.work-title-item {
   color: var(--secondary-text-color);
 }
 
