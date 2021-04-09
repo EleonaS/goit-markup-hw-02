@@ -76,26 +76,20 @@ ul {
 .hero {
   width: 1600px;
   height: 600px;
-  background-color: rgb(235, 190, 190); /*поменять на фото в ДЗ3*/
+  background-color: var(--footer-bg-color);
 }
 .hero-title {
   color: var(--hero-text-color);
 
   text-align: center;
 }
-
-.section-title {
+/*
+.section-title,
+.feature-list.title .team-item-name {
   color: var(--primary-text-color);
-}
+} */
 
-.feature-list.title {
-  color: var(--primary-text-color);
-}
-
-.team-item-name {
-  color: var(--primary-text-color);
-}
-
+.title-item,
 .team-item-position {
   color: var(--secondary-text-color);
 }
