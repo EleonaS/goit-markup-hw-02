@@ -17,19 +17,9 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: var(--primery-font-family);
+  font-style: normal;
+  font-weight: normal;
 }
-
-/* #FFFFFF */
-/*   */
-/* вторичный #757575*/
-
-/*акцент */
-
-/*футер color: * /
-
-/*background: #FFFFFF;*/
-/*background: #F5F4FA;*/
-/*футер background: #2F303A;*/
 
 .page-header {
 }
@@ -39,11 +29,11 @@ body {
 .logo-footer {
   font-family: var(--logo-font-family);
   text-decoration: none;
-  position: absolute;
+
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  font-weight: bold;
+  font-weight: 700;
 }
 .logo-part-one {
   color: var(--accent-color);
@@ -81,14 +71,14 @@ ul {
 
 .contacts .link {
   color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
+/*Main*/
 .hero {
   width: 1600px;
   height: 600px;
@@ -96,26 +86,9 @@ ul {
 }
 .hero-title {
   color: var(--hero-text-color);
-
-  /*font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;*/
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -126,25 +99,19 @@ ul {
   color: var(--primary-text-color);
 } */
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17px;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .title-item {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -152,16 +119,13 @@ ul {
 .team-item-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .team-item-position {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .title-item,
@@ -175,6 +139,7 @@ ul {
   color: var(--primary-text-color);
   background-color: var(--secondary-bg-color);
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button:hover,
@@ -196,6 +161,7 @@ ul {
   overflow: hidden;
 }
 
+/*FOOTER*/
 .footer {
   background-color: var(--footer-bg-color);
   position: absolute;
@@ -230,31 +196,29 @@ ul {
   color: var(--hero-text-color);
 }
 
+/*PORTFOLIO*/
+
+/*div */
 .button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.work-title {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
 
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .work-title-item {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
